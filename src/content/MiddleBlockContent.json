@@ -1,0 +1,30 @@
+{
+  "title": "About Chordra",
+  "text": "Chordra helps you practice chords more effectively through randomized progressions and a built-in metronome. Customize your practice, focus on chords you struggle with, and level up your playing.",
+  "button": {
+    "title": "Learn More",
+    "color": "#fff"
+  },
+  "features": [
+    {
+      "title": "🎯 Practice the chords you want to master",
+      "description": "Focus on specific chords or progressions that challenge you"
+    },
+    {
+      "title": "🔀 Randomized chord progression generator",
+      "description": "Get new and challenging sequences every time"
+    },
+    {
+      "title": "🎵 Built-in metronome",
+      "description": "Keep perfect time while practicing"
+    },
+    {
+      "title": "🔁 Loop mode for focused repetition",
+      "description": "Master difficult transitions through repetition"
+    },
+    {
+      "title": "⚙️ Customizable settings",
+      "description": "Adjust BPM, beat count, and chord display to your preference"
+    }
+  ]
+}

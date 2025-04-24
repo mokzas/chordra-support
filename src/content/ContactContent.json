@@ -1,0 +1,25 @@
+{
+    "title": "Send Feedback or Report a Problem",
+    "text": "If you're experiencing an issue or have a suggestion, we'd love to hear from you. Your feedback helps make Chordra better!",
+    "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Your feedback or issue description",
+        "submit": "Send Email"
+    },
+    "email": "jaeiklee.dev@gmail.com",
+    "links": [
+        {
+            "title": "Submit Feedback via Tally Form",
+            "url": "#"
+        },
+        {
+            "title": "View Privacy Policy",
+            "url": "/privacy"
+        },
+        {
+            "title": "Chordra App Store Page",
+            "url": "https://apps.apple.com/app/chordra"
+        }
+    ]
+}
