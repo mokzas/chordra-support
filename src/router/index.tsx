@@ -1,8 +1,10 @@
-import { lazy, Suspense } from "react";
+import { Suspense } from "react";
 import { Switch, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import routes from "./config";
+import Home from "../pages/Home";
+import PrivacyEn from "../pages/PrivacyEn";
+import PrivacyKr from "../pages/PrivacyKr";
 import { Styles } from "../styles/styles";
 
 const Router = () => {
@@ -11,16 +13,9 @@ const Router = () => {
       <Styles />
       <Header />
       <Switch>
-        {routes.map((routeItem) => {
-          return (
-            <Route
-              key={routeItem.component}
-              path={routeItem.path}
-              exact={routeItem.exact}
-              component={lazy(() => import(`../pages/${routeItem.component}`))}
-            />
-          );
-        })}
+        <Route exact path="/" component={Home} />
+        <Route exact path="/privacy/en" component={PrivacyEn} />
+        <Route exact path="/privacy/kr" component={PrivacyKr} />
       </Switch>
       <Footer />
     </Suspense>
