@@ -16,7 +16,7 @@ export const Content = styled.p`
   padding: 0.75rem 0 0.75rem;
 `;
 
-export const ContentWrapper = styled.div`
+export const ContentWrapper = styled.div`    
   max-width: 570px;
 
   @media only screen and (max-width: 768px) {
@@ -25,9 +25,9 @@ export const ContentWrapper = styled.div`
 `;
 
 export const FeatureList = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   margin: 2rem 0;
 `;
 

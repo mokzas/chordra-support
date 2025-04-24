@@ -7,23 +7,23 @@
   },
   "features": [
     {
-      "title": "🎯 Practice the chords you want to master",
-      "description": "Focus on specific chords or progressions that challenge you"
+      "title": "🎯 Weak chords",
+      "description": "Select and practice specific chords that challenge you"
     },
     {
-      "title": "🔀 Randomized chord progression generator",
+      "title": "🔀 Random chords",
       "description": "Get new and challenging sequences every time"
     },
     {
-      "title": "🎵 Built-in metronome",
-      "description": "Keep perfect time while practicing"
+      "title": "🎵 Metronome",
+      "description": "Keep perfect time while practicing with a built-in metronome"
     },
     {
-      "title": "🔁 Loop mode for focused repetition",
+      "title": "🔁 Repeat",
       "description": "Master difficult transitions through repetition"
     },
     {
-      "title": "⚙️ Customizable settings",
+      "title": "⚙️ Settings",
       "description": "Adjust BPM, beat count, and chord display to your preference"
     }
   ]
