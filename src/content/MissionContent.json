@@ -1,4 +1,8 @@
 {
-  "title": "Ready made sections",
-  "text": "Landy comes with a set of ready to use sections to help you easily create a landing page for your own brand, with all the content your startup desires. In order to replace any dummy elements (text, image, etc..) all you need to do is go to content folder and input your real content."
+  "title": "About Chordra",
+  "text": "Chordra is a smart chord training app developed by Mokzas. It helps musicians practice chords effectively through randomized progressions and a built-in metronome. Customize your practice, focus on chords you struggle with, and level up your playing.",
+  "section": {
+    "title": "Contact us",
+    "description": "We'd love to hear from you!"
+  }
 }

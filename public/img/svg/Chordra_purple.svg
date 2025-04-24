@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Chordra_purple.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   inkscape:export-filename="Chordra_purple_192.png"
+   inkscape:export-xdpi="18"
+   inkscape:export-ydpi="18"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.60628883"
+     inkscape:cx="549.24317"
+     inkscape:cy="564.91227"
+     inkscape:window-width="1544"
+     inkscape:window-height="990"
+     inkscape:window-x="380"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3" />
+  <rect
+     width="1024"
+     height="1024"
+     rx="220"
+     fill="#821edf"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:1;fill:#310060;fill-opacity:1" />
+  <!-- App Name -->
+  <text
+     x="512"
+     y="550"
+     text-anchor="middle"
+     font-size="220"
+     font-family="Arial, sans-serif"
+     fill="#ffffff"
+     font-weight="bold"
+     id="text1">
+    Chordra
+  </text>
+  <!-- 3 Random Dots -->
+  <circle
+     cx="174.79338"
+     cy="341.72736"
+     r="9.8359909"
+     fill="#ffffff"
+     id="circle1"
+     style="stroke-width:0.546443" />
+  <circle
+     cx="763.98199"
+     cy="231.45662"
+     r="13.649379"
+     fill="#ffffff"
+     id="circle2"
+     style="stroke-width:1.13745" />
+  <circle
+     cx="615.60284"
+     cy="-763.65747"
+     r="21.422205"
+     fill="#ffffff"
+     id="circle3"
+     transform="scale(1,-1)"
+     style="stroke-width:1.53016" />
+</svg>

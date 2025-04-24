@@ -10,13 +10,13 @@ export interface ContentBlockProps {
   }[];
   button?: (
     | {
-        title: string;
-        color?: undefined;
-      }
+      title: string;
+      color?: undefined;
+    }
     | {
-        title: string;
-        color: string;
-      }
+      title: string;
+      color: string;
+    }
   )[];
   t: TFunction;
   id: string;
