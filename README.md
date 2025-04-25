@@ -1,5 +1,7 @@
 # Chordra Support Page
 
+https://mokzas.github.io/chordra-support/
+
 ## Description
 
 Chordra is a smart chord training app developed by Mokzas. It helps musicians practice chords effectively through randomized progressions and a built-in metronome.
