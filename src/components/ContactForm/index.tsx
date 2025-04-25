@@ -18,6 +18,19 @@ const Contact = ({ title, content, id, form, t }: ContactProps) => {
     return <Span>{ErrorMessage}</Span>;
   };
 
+  const handleEmailSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
+    handleSubmit(event);
+
+    // Only proceed if there are no errors
+    if (Object.values(errors).every((error) => error === "")) {
+      const subject = `[Chordra Feedback] ${values.subject}`;
+      const body = `${values.message}`;
+      const mailtoLink = `mailto:jaeiklee.dev@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+      window.location.href = mailtoLink;
+    }
+  };
+
   return (
     <ContactContainer id={id}>
       <Row justify="space-between" align="middle">
@@ -28,8 +41,18 @@ const Contact = ({ title, content, id, form, t }: ContactProps) => {
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right" triggerOnce>
-            <FormGroup autoComplete="off" onSubmit={handleSubmit}>
+            <FormGroup autoComplete="off" onSubmit={handleEmailSubmit}>
               <Col span={24}>
+                <Input
+                  type="text"
+                  name="subject"
+                  placeholder={form?.subject || "Subject"}
+                  value={values.subject || ""}
+                  onChange={handleChange}
+                />
+                <ValidationType type="subject" />
+              </Col>
+              {/* <Col span={24}>
                 <Input
                   type="text"
                   name="name"
@@ -48,7 +71,7 @@ const Contact = ({ title, content, id, form, t }: ContactProps) => {
                   onChange={handleChange}
                 />
                 <ValidationType type="email" />
-              </Col>
+              </Col> */}
               <Col span={24}>
                 <TextArea
                   placeholder={form?.message || "Your Message"}

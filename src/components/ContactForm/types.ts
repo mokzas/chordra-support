@@ -9,6 +9,7 @@ export interface ContactProps {
   content: string;
   id: string;
   form?: {
+    subject: string;
     name: string;
     email: string;
     message: string;

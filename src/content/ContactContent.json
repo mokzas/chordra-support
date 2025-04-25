@@ -2,6 +2,7 @@
     "title": "Send Feedback or Report a Problem",
     "text": "If you're experiencing an issue or have a suggestion, we'd love to hear from you. Your feedback helps make Chordra better!",
     "form": {
+        "subject": "Subject",
         "name": "Name",
         "email": "Email",
         "message": "Your feedback or issue description",
