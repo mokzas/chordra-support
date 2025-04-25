@@ -28,23 +28,23 @@ const Paragraph = styled.p`
   opacity: 0.8;
 `;
 
-const SubTitle = styled.strong`
-  display: block;
-  margin: 3rem 0 1.5rem;
-  color: #2E186A;
-  font-size: 1.5rem;
-`;
+// const SubTitle = styled.strong`
+//   display: block;
+//   margin: 3rem 0 1.5rem;
+//   color: #2E186A;
+//   font-size: 1.5rem;
+// `;
 
-const EmailLink = styled.a`
-  color: #2E186A;
-  text-decoration: none;
-  border-bottom: 1px solid #2E186A;
-  transition: opacity 0.3s ease-in-out;
+// const EmailLink = styled.a`
+//   color: #2E186A;
+//   text-decoration: none;
+//   border-bottom: 1px solid #2E186A;
+//   transition: opacity 0.3s ease-in-out;
 
-  &:hover {
-    opacity: 0.7;
-  }
-`;
+//   &:hover {
+//     opacity: 0.7;
+//   }
+// `;
 
 const LastUpdated = styled(Paragraph)`
   margin-top: 4rem;
@@ -271,10 +271,10 @@ const PrivacyKr = () => {
                         가. 중앙행정심판위원회 : (국번없이) 110 (www.simpan.go.kr)<br />
                     </Paragraph>
 
-                    <Paragraph>
+                    <LastUpdated>
                         <strong>부칙</strong><br />
                         제1조 본 방침은 2025.05.02.부터 시행됩니다.<br />
-                    </Paragraph>
+                    </LastUpdated>
 
                 </Content>
             </PrivacySection>

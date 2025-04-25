@@ -1,12 +1,12 @@
 import { lazy } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 // import AboutContent from "../../content/AboutContent.json";
 // import MissionContent from "../../content/MissionContent.json";
 // import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -14,46 +14,46 @@ const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
-const LinksContainer = styled.div`
-  margin: 2rem 0;
-  text-align: center;
-`;
+// const LinksContainer = styled.div`
+//   margin: 2rem 0;
+//   text-align: center;
+// `;
 
-const StyledLink = styled(Link)`
-  display: block;
-  margin: 1rem 0;
-  color: #1890ff;
-  text-decoration: none;
-  font-size: 1rem;
-  
-  &:hover {
-    text-decoration: underline;
-  }
-`;
+// const StyledLink = styled(Link)`
+//   display: block;
+//   margin: 1rem 0;
+//   color: #1890ff;
+//   text-decoration: none;
+//   font-size: 1rem;
 
-const ExternalLink = styled.a`
-  display: block;
-  margin: 1rem 0;
-  color: #1890ff;
-  text-decoration: none;
-  font-size: 1rem;
-  
-  &:hover {
-    text-decoration: underline;
-  }
-`;
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// `;
 
-const EmailLink = styled.a`
-  display: block;
-  margin: 1rem 0;
-  color: #1890ff;
-  text-decoration: none;
-  font-size: 1rem;
-  
-  &:hover {
-    text-decoration: underline;
-  }
-`;
+// const ExternalLink = styled.a`
+//   display: block;
+//   margin: 1rem 0;
+//   color: #1890ff;
+//   text-decoration: none;
+//   font-size: 1rem;
+
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// `;
+
+// const EmailLink = styled.a`
+//   display: block;
+//   margin: 1rem 0;
+//   color: #1890ff;
+//   text-decoration: none;
+//   font-size: 1rem;
+
+//   &:hover {
+//     text-decoration: underline;
+//   }
+// `;
 
 const Home = () => {
   return (
