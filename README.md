@@ -26,6 +26,8 @@ This support page is built using:
 - Styled Components
 - Ant Design
 
+This website is created using [Landy React Template](https://github.com/Adrinlol/landy-react-template), an open-source React landing page template designed for developers and startups.
+
 ## License
 
 Licensed under the MIT license.
