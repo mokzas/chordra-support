@@ -25,7 +25,9 @@ const Header = ({ t }: { t: TFunction }) => {
 
   const MenuItem = () => {
     const scrollTo = (id: string) => {
-      const element = document.getElementById(id) as HTMLDivElement;
+      const element = document.getElementById(id);
+      if (!element) return;
+
       element.scrollIntoView({
         behavior: "smooth",
       });

@@ -8,14 +8,19 @@ interface RouteConfig {
 
 const routes: RouteConfig[] = [
     {
-        path: "/",
+        path: `/`,
         exact: true,
         component: "Home",
     },
     {
-        path: "/privacy",
+        path: `/privacy/en`,
         exact: true,
-        component: "Privacy",
+        component: "PrivacyEn",
+    },
+    {
+        path: `/privacy/kr`,
+        exact: true,
+        component: "PrivacyKr",
     },
 ];
 
