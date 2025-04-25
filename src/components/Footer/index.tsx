@@ -52,12 +52,12 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              {/* <Large to="/">{t("Tell us everything")}</Large> */}
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
               <a href="mailto:jaeiklee.dev@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+                <Chat>{t(`📧 jaeiklee.dev@gmail.com`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
@@ -65,11 +65,26 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Large to="/privacy/en">{t("Privacy Policy (EN)")}</Large>
               <Large to="/privacy/kr">{t("Privacy Policy (KR)")}</Large>
             </Col>
-            {/* <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large to="/">{t("Support Center")}</Large>
-              <Large to="/">{t("Customer Support")}</Large>
-            </Col> */}
+            <Col lg={6} md={6} sm={12} xs={12}>
+              <Title>{t("Download")}</Title>
+              <a href="https://apps.apple.com/app/chordra">
+                <SvgIcon
+                  src="Download_on_the_App_Store.svg"
+                  aria-label="homepage"
+                  width="108px"
+                  height="40px"
+                />
+              </a>
+              <br />
+              <a href="https://play.google.com/store/apps/details?id=com.chordra.app">
+                <SvgIcon
+                  src="GetItOnGooglePlay.svg"
+                  aria-label="homepage"
+                  width="108px"
+                  height="40px"
+                />
+              </a>
+            </Col>
           </Row>
           {/* <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
@@ -109,7 +124,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
           </Row> */}
         </Container>
-      </FooterSection>
+      </FooterSection >
       <Extra>
         <Container border={true}>
           <Row
@@ -128,11 +143,11 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              {/* <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+              <SocialLink
+                href="https://github.com/mokzas"
                 src="github.svg"
               />
-              <SocialLink
+              {/* <SocialLink
                 href="https://twitter.com/Adrinlolx"
                 src="twitter.svg"
               />

@@ -100,7 +100,7 @@ const Home = () => {
         form={ContactContent.form}
         id="contact"
       />
-      <LinksContainer>
+      {/* <LinksContainer>
         {ContactContent.links.map((link, index) => (
           link.url.startsWith('http') ? (
             <ExternalLink key={index} href={link.url} target="_blank" rel="noopener noreferrer">
@@ -115,7 +115,7 @@ const Home = () => {
         <EmailLink href={`mailto:${ContactContent.email}`}>
           📧 {ContactContent.email}
         </EmailLink>
-      </LinksContainer>
+      </LinksContainer> */}
     </Container>
   );
 };
