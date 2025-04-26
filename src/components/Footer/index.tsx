@@ -11,7 +11,7 @@ import {
   Extra,
   LogoContainer,
   Para,
-  Large,
+  // Large,
   Chat,
   // Empty,
   FooterContainer,
@@ -62,8 +62,10 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
-              <Large to="/privacy/en">{t("Privacy Policy (EN)")}</Large>
-              <Large to="/privacy/kr">{t("Privacy Policy (KR)")}</Large>
+              <a href="https://doc-hosting.flycricket.io/chordra-privacy-policy/1d12acfc-de08-40a9-944e-0102a4e8a6db/privacy">
+                <Para>{t("Privacy Policy (EN)")}</Para>
+              </a>
+              {/* <Large to="/privacy/kr">{t("Privacy Policy (KR)")}</Large> */}
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Title>{t("Download")}</Title>
