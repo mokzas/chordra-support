@@ -69,23 +69,25 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Title>{t("Download")}</Title>
-              <a href="https://apps.apple.com/app/chordra">
-                <SvgIcon
-                  src="Download_on_the_App_Store.svg"
-                  aria-label="homepage"
-                  width="108px"
-                  height="40px"
-                />
-              </a>
-              <br />
-              <a href="https://play.google.com/store/apps/details?id=com.chordra.app">
-                <SvgIcon
-                  src="GetItOnGooglePlay.svg"
-                  aria-label="homepage"
-                  width="108px"
-                  height="40px"
-                />
-              </a>
+              <div id="download">
+                <a href="https://apps.apple.com/kr/app/chordra/id6744913508">
+                  <SvgIcon
+                    src="Download_on_the_App_Store.svg"
+                    aria-label="homepage"
+                    width="108px"
+                    height="40px"
+                  />
+                </a>
+                <br />
+                <a href="https://play.google.com/store/apps/details?id=kr.mokzas.c2b_chord">
+                  <SvgIcon
+                    src="GetItOnGooglePlay.svg"
+                    aria-label="homepage"
+                    width="108px"
+                    height="40px"
+                  />
+                </a>
+              </div>
             </Col>
           </Row>
           {/* <Row justify="space-between">

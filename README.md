@@ -18,7 +18,8 @@ Chordra is a smart chord training app developed by Mokzas. It helps musicians pr
 
 For support, feedback, or inquiries, please contact us at:
 - Email: jaeiklee.dev@gmail.com
-- App Store: [Chordra on App Store](https://apps.apple.com/app/chordra)
+- Apple App Store: [https://apps.apple.com/kr/app/chordra/id6744913508](https://apps.apple.com/kr/app/chordra/id6744913508)
+- Google Play Store: [https://play.google.com/store/apps/details?id=kr.mokzas.c2b_chord](https://play.google.com/store/apps/details?id=kr.mokzas.c2b_chord)
 
 ## Development
 

@@ -28,9 +28,11 @@ const ContentBlock = ({
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
   };
 
   return (
@@ -57,6 +59,7 @@ const ContentBlock = ({
                         item: {
                           color?: string;
                           title: string;
+                          targetId?: string;
                         },
                         id: number
                       ) => {
@@ -64,7 +67,7 @@ const ContentBlock = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            onClick={() => item.targetId ? scrollTo(item.targetId) : undefined}
                           >
                             {t(item.title)}
                           </Button>

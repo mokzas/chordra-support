@@ -3,12 +3,8 @@
   "text": "Welcome to the official support page for Chordra – your smart chord training app.",
   "button": [
     {
-      "title": "App Store",
-      "link": "https://apps.apple.com/app/chordra"
-    },
-    {
-      "title": "Google Play",
-      "link": "https://play.google.com/store/apps/details?id=com.chordra.app"
+      "title": "Download",
+      "targetId": "download"
     }
   ]
 }
