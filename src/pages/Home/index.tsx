@@ -64,7 +64,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="Chordra_purple.svg"
+        icon="App_Mockup_transparent.png"
         id="intro"
       />
       <MiddleBlock
