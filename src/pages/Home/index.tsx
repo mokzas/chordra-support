@@ -58,6 +58,7 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Home = () => {
   return (
     <Container>
+      <h1 style={{position: 'absolute', left: '-9999px', height: 0, width: 0, overflow: 'hidden'}}>Chordra Support</h1>
       <ScrollToTop />
       <ContentBlock
         direction="right"

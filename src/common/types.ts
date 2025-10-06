@@ -15,6 +15,8 @@ export interface SvgIconProps {
   src: string;
   width: string;
   height: string;
+  alt?: string;
+  loading?: "eager" | "lazy";
 }
 
 export interface InputProps {

@@ -68,6 +68,7 @@ const LastUpdated = styled(Paragraph)`
 const PrivacyEn = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "Privacy Policy — Chordra";
     }, []);
 
     return (

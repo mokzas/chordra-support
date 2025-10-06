@@ -56,6 +56,7 @@ const LastUpdated = styled(Paragraph)`
 const PrivacyKr = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
+        document.title = "개인정보 처리방침 — Chordra";
     }, []);
 
     return (
